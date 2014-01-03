@@ -21,6 +21,7 @@
 		8497477A1876A88400EA69F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497475C1876A88400EA69F2 /* UIKit.framework */; };
 		849747821876A88400EA69F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849747801876A88400EA69F2 /* InfoPlist.strings */; };
 		849747841876A88400EA69F2 /* DTTJailbreakDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849747831876A88400EA69F2 /* DTTJailbreakDetectionTests.m */; };
+		8497478F1876A8A000EA69F2 /* DTTJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497478E1876A8A000EA69F2 /* DTTJailbreakDetection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8497477F1876A88400EA69F2 /* DTTJailbreakDetectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTTJailbreakDetectionTests-Info.plist"; sourceTree = "<group>"; };
 		849747811876A88400EA69F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		849747831876A88400EA69F2 /* DTTJailbreakDetectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTJailbreakDetectionTests.m; sourceTree = "<group>"; };
+		8497478D1876A8A000EA69F2 /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
+		8497478E1876A8A000EA69F2 /* DTTJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTJailbreakDetection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8497476A1876A88400EA69F2 /* Main.storyboard */,
 				8497476D1876A88400EA69F2 /* ViewController.h */,
 				8497476E1876A88400EA69F2 /* ViewController.m */,
+				8497478D1876A8A000EA69F2 /* DTTJailbreakDetection.h */,
+				8497478E1876A8A000EA69F2 /* DTTJailbreakDetection.m */,
 				849747701876A88400EA69F2 /* Images.xcassets */,
 				8497475F1876A88400EA69F2 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				8497476F1876A88400EA69F2 /* ViewController.m in Sources */,
 				849747691876A88400EA69F2 /* AppDelegate.m in Sources */,
+				8497478F1876A8A000EA69F2 /* DTTJailbreakDetection.m in Sources */,
 				849747651876A88400EA69F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
