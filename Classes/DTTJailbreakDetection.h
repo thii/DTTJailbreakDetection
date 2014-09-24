@@ -10,6 +10,6 @@
 
 @interface DTTJailbreakDetection : NSObject
 
-- (BOOL)isJailbroken;
++ (BOOL)isJailbroken;
 
 @end

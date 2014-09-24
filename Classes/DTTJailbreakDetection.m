@@ -10,7 +10,7 @@
 
 @implementation DTTJailbreakDetection
 
-- (BOOL)isJailbroken
++ (BOOL)isJailbroken
 {
     NSFileManager *fileManager = [NSFileManager defaultManager];
 
