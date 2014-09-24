@@ -36,7 +36,6 @@
         return YES;
     } else {
         [fileManager removeItemAtPath:@"/private/jailbreak.txt" error:nil];
-        return NO;
     }
     
     // Check if the app can open a Cydia's URL scheme
