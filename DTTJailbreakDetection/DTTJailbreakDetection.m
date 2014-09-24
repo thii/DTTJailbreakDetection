@@ -17,6 +17,7 @@
         return YES;
     }
     
+    fclose(file);
     return NO;
 }
 
