@@ -38,7 +38,7 @@
         return YES;
     } else if ([fileManager fileExistsAtPath:@"/etc/apt"]) {
         return YES;
-    } else if ([fileManager fileExistsAtPath:@"/bin/ssh"]) {
+    } else if ([fileManager fileExistsAtPath:@"/usr/bin/ssh"]) {
         return YES;
     }
     
