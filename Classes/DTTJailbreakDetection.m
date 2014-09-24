@@ -26,6 +26,8 @@
 
 + (BOOL)isJailbroken
 {
+#if !(TARGET_IPHONE_SIMULATOR)
+
     NSFileManager *fileManager = [NSFileManager defaultManager];
 
     if ([fileManager fileExistsAtPath:@"/Applications/Cydia.app"]) {
@@ -56,6 +58,8 @@
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"cydia://package/com.example.package"]]) {
         return YES;
     }
+
+#endif
 
     return NO;
 }
