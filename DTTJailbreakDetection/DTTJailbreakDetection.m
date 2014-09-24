@@ -46,12 +46,4 @@
     return NO;
 }
 
-- (void)showAlertIfAppIsJailbroken
-{
-    if ([self isJailbroken]) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Jailbroken" message:@"Your iOS device is jailbroken!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-        [alert show];
-    }
-}
-
 @end

@@ -11,6 +11,5 @@
 @interface DTTJailbreakDetection : NSObject
 
 - (BOOL)isJailbroken;
-- (void)showAlertIfAppIsJailbroken;
 
 @end
