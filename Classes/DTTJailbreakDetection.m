@@ -28,6 +28,37 @@
 {
 #if !(TARGET_IPHONE_SIMULATOR)
 
+    FILE *file = fopen("/Applications/Cydia.app", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    file = fopen("/Library/MobileSubstrate/MobileSubstrate.dylib", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    file = fopen("/bin/bash", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    file = fopen("/usr/sbin/sshd", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    file = fopen("/etc/apt", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    file = fopen("/usr/bin/ssh", "r");
+    if (file) {
+        fclose(file);
+        return YES;
+    }
+    
     NSFileManager *fileManager = [NSFileManager defaultManager];
 
     if ([fileManager fileExistsAtPath:@"/Applications/Cydia.app"]) {
