@@ -27,6 +27,8 @@ To start using DTTJailbreakDetection:
 ```
 
 ## Example
+
+### iOS 7 or older
 ```obj-c
 if ([DTTJailbreakDetection isJailbroken]) {
     UIAlertView * alert =[[UIAlertView alloc ] initWithTitle:@"System Requirements"
@@ -36,6 +38,22 @@ if ([DTTJailbreakDetection isJailbroken]) {
                                            otherButtonTitles:nil];
     [alert show];
     // End your app
+}
+```
+
+### iOS 8 or newer
+```obj-c
+if ([DTTJailbreakDetection isJailbroken]) {
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"System Requirements"
+                                                                             message:@"This app is only supported on unmodified versions of iOS."
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK"
+                                                           style:UIAlertActionStyleDefault
+                                                         handler:^(UIAlertAction *action) {
+        // End your app
+    }];
+    [alertController addAction:cancelAction];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 ```
 
