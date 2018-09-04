@@ -80,9 +80,8 @@
     NSString *string = @".";
     [string writeToFile:@"/private/jailbreak.txt" atomically:YES encoding:NSUTF8StringEncoding error:&error];
     if (!error) {
-        return YES;
-    } else {
         [fileManager removeItemAtPath:@"/private/jailbreak.txt" error:nil];
+        return YES;
     }
     
     // Check if the app can open a Cydia's URL scheme
