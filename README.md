@@ -1,9 +1,13 @@
 DTTJailbreakDetection
 =====================
 
-# tl;dr
+[![Version](https://img.shields.io/cocoapods/v/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
+[![License](https://img.shields.io/cocoapods/l/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
+[![Platform](https://img.shields.io/cocoapods/p/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
 
-A library to detect an iOS device is jailbroken or not.
+# TL;DR
+
+A library to detect if an iOS device is jailbroken or not.
 
 # The good
 
@@ -17,16 +21,22 @@ A library to detect an iOS device is jailbroken or not.
 
 The easiest way to install DTTJailbreakDetection is to use CocoaPods. Just add the following line to your Podfile:
 
-    pod 'DTTJailbreakDetection'
+```ruby
+pod 'DTTJailbreakDetection'
+```
 
 # Usage
 
 To start using DTTJailbreakDetection:
+
 ```obj-c
 #import <DTTJailbreakDetection/DTTJailbreakDetection.h>
 ```
 
 ## Example
+
+### iOS 7 or older
+
 ```obj-c
 if ([DTTJailbreakDetection isJailbroken]) {
     UIAlertView * alert =[[UIAlertView alloc ] initWithTitle:@"System Requirements"
@@ -36,6 +46,23 @@ if ([DTTJailbreakDetection isJailbroken]) {
                                            otherButtonTitles:nil];
     [alert show];
     // End your app
+}
+```
+
+### iOS 8 or newer
+
+```obj-c
+if ([DTTJailbreakDetection isJailbroken]) {
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"System Requirements"
+                                                                             message:@"This app is only supported on unmodified versions of iOS."
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK"
+                                                           style:UIAlertActionStyleDefault
+                                                         handler:^(UIAlertAction *action) {
+        // End your app
+    }];
+    [alertController addAction:cancelAction];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 ```
 
