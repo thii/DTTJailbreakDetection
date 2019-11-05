@@ -9,59 +9,14 @@
 /* Begin PBXBuildFile section */
 		9E3E1ADE2372198100854448 /* DTTJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3E1ADC2372198100854448 /* DTTJailbreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E3E1AE5237219C800854448 /* DTTJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1AE4237219C800854448 /* DTTJailbreakDetection.m */; };
-		9E3E1AF023721A7C00854448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1AEF23721A7C00854448 /* AppDelegate.m */; };
-		9E3E1AF323721A7C00854448 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1AF223721A7C00854448 /* SceneDelegate.m */; };
-		9E3E1AF623721A7C00854448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1AF523721A7C00854448 /* ViewController.m */; };
-		9E3E1AF923721A7D00854448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E1AF723721A7C00854448 /* Main.storyboard */; };
-		9E3E1AFB23721AA700854448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E1AFA23721AA700854448 /* Assets.xcassets */; };
-		9E3E1AFE23721AA700854448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E1AFC23721AA700854448 /* LaunchScreen.storyboard */; };
-		9E3E1B0123721AA700854448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1B0023721AA700854448 /* main.m */; };
-		9E3E1B0623721BE200854448 /* DTTJailbreakDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */; };
-		9E3E1B0723721BE200854448 /* DTTJailbreakDetection.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E3E1B0D23721D5000854448 /* DTTJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3E1B0C23721D5000854448 /* DTTJailbreakDetection.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9E3E1B0823721BE200854448 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9E3E1AD02372198000854448 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E3E1AD82372198100854448;
-			remoteInfo = DTTJailbreakDetection;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		9E3E1B0A23721BE200854448 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				9E3E1B0723721BE200854448 /* DTTJailbreakDetection.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTTJailbreakDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3E1ADC2372198100854448 /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
 		9E3E1ADD2372198100854448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E3E1AE4237219C800854448 /* DTTJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTJailbreakDetection.m; path = ../../Sources/DTTJailbreakDetection/DTTJailbreakDetection.m; sourceTree = "<group>"; };
-		9E3E1AEC23721A7C00854448 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3E1AEE23721A7C00854448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9E3E1AEF23721A7C00854448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E3E1AF123721A7C00854448 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9E3E1AF223721A7C00854448 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9E3E1AF423721A7C00854448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E3E1AF523721A7C00854448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9E3E1AF823721A7C00854448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E3E1AFA23721AA700854448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9E3E1AFD23721AA700854448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9E3E1AFF23721AA700854448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E3E1B0023721AA700854448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E3E1B0C23721D5000854448 /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E3E1AE923721A7C00854448 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E3E1B0623721BE200854448 /* DTTJailbreakDetection.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				9E3E1ADB2372198100854448 /* DTTJailbreakDetection */,
-				9E3E1AED23721A7C00854448 /* Example */,
 				9E3E1ADA2372198100854448 /* Products */,
 				9E3E1B0523721BE200854448 /* Frameworks */,
 			);
@@ -98,7 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */,
-				9E3E1AEC23721A7C00854448 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,24 +57,6 @@
 				9E3E1ADD2372198100854448 /* Info.plist */,
 			);
 			path = DTTJailbreakDetection;
-			sourceTree = "<group>";
-		};
-		9E3E1AED23721A7C00854448 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				9E3E1AEE23721A7C00854448 /* AppDelegate.h */,
-				9E3E1AEF23721A7C00854448 /* AppDelegate.m */,
-				9E3E1AF123721A7C00854448 /* SceneDelegate.h */,
-				9E3E1AF223721A7C00854448 /* SceneDelegate.m */,
-				9E3E1AF423721A7C00854448 /* ViewController.h */,
-				9E3E1AF523721A7C00854448 /* ViewController.m */,
-				9E3E1AF723721A7C00854448 /* Main.storyboard */,
-				9E3E1AFA23721AA700854448 /* Assets.xcassets */,
-				9E3E1AFC23721AA700854448 /* LaunchScreen.storyboard */,
-				9E3E1AFF23721AA700854448 /* Info.plist */,
-				9E3E1B0023721AA700854448 /* main.m */,
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		9E3E1B0523721BE200854448 /* Frameworks */ = {
@@ -181,25 +108,6 @@
 			productReference = 9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9E3E1AEB23721A7C00854448 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E3E1B0223721AA700854448 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				9E3E1AE823721A7C00854448 /* Sources */,
-				9E3E1AE923721A7C00854448 /* Frameworks */,
-				9E3E1AEA23721A7C00854448 /* Resources */,
-				9E3E1B0A23721BE200854448 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9E3E1B0923721BE200854448 /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = 9E3E1AEC23721A7C00854448 /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,9 +118,6 @@
 				ORGANIZATIONNAME = thii;
 				TargetAttributes = {
 					9E3E1AD82372198100854448 = {
-						CreatedOnToolsVersion = 11.2;
-					};
-					9E3E1AEB23721A7C00854448 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
@@ -231,7 +136,6 @@
 			projectRoot = "";
 			targets = (
 				9E3E1AD82372198100854448 /* DTTJailbreakDetection */,
-				9E3E1AEB23721A7C00854448 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -241,16 +145,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E3E1AEA23721A7C00854448 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E3E1AFE23721AA700854448 /* LaunchScreen.storyboard in Resources */,
-				9E3E1AFB23721AA700854448 /* Assets.xcassets in Resources */,
-				9E3E1AF923721A7D00854448 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,45 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E3E1AE823721A7C00854448 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E3E1AF623721A7C00854448 /* ViewController.m in Sources */,
-				9E3E1AF023721A7C00854448 /* AppDelegate.m in Sources */,
-				9E3E1B0123721AA700854448 /* main.m in Sources */,
-				9E3E1AF323721A7C00854448 /* SceneDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9E3E1B0923721BE200854448 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9E3E1AD82372198100854448 /* DTTJailbreakDetection */;
-			targetProxy = 9E3E1B0823721BE200854448 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9E3E1AF723721A7C00854448 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E3E1AF823721A7C00854448 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9E3E1AFC23721AA700854448 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E3E1AFD23721AA700854448 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9E3E1ADF2372198100854448 /* Debug */ = {
@@ -466,38 +322,6 @@
 			};
 			name = Release;
 		};
-		9E3E1B0323721AA700854448 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = thii.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9E3E1B0423721AA700854448 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Example/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = thii.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -515,15 +339,6 @@
 			buildConfigurations = (
 				9E3E1AE22372198200854448 /* Debug */,
 				9E3E1AE32372198200854448 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E3E1B0223721AA700854448 /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E3E1B0323721AA700854448 /* Debug */,
-				9E3E1B0423721AA700854448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
