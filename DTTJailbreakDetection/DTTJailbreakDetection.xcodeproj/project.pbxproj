@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E3E1ADE2372198100854448 /* DTTJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3E1ADC2372198100854448 /* DTTJailbreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E3E1AE5237219C800854448 /* DTTJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E1AE4237219C800854448 /* DTTJailbreakDetection.m */; };
-		9E3E1B0D23721D5000854448 /* DTTJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3E1B0C23721D5000854448 /* DTTJailbreakDetection.h */; };
+		9E3E1B0D23721D5000854448 /* DTTJailbreakDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3E1B0C23721D5000854448 /* DTTJailbreakDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E3E1AD92372198100854448 /* DTTJailbreakDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTTJailbreakDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3E1ADC2372198100854448 /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
 		9E3E1ADD2372198100854448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E3E1AE4237219C800854448 /* DTTJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTTJailbreakDetection.m; path = ../../Sources/DTTJailbreakDetection/DTTJailbreakDetection.m; sourceTree = "<group>"; };
 		9E3E1B0C23721D5000854448 /* DTTJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTJailbreakDetection.h; sourceTree = "<group>"; };
@@ -51,7 +49,6 @@
 		9E3E1ADB2372198100854448 /* DTTJailbreakDetection */ = {
 			isa = PBXGroup;
 			children = (
-				9E3E1ADC2372198100854448 /* DTTJailbreakDetection.h */,
 				9E3E1AE4237219C800854448 /* DTTJailbreakDetection.m */,
 				9E3E1B0B23721D5000854448 /* include */,
 				9E3E1ADD2372198100854448 /* Info.plist */,
@@ -82,7 +79,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3E1ADE2372198100854448 /* DTTJailbreakDetection.h in Headers */,
 				9E3E1B0D23721D5000854448 /* DTTJailbreakDetection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
