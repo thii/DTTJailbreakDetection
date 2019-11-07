@@ -4,6 +4,7 @@ DTTJailbreakDetection
 [![Version](https://img.shields.io/cocoapods/v/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
 [![License](https://img.shields.io/cocoapods/l/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
 [![Platform](https://img.shields.io/cocoapods/p/DTTJailbreakDetection.svg?style=flat)](http://cocoadocs.org/docsets/DTTJailbreakDetection)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/thii/DTTJailbreakDetection)
 
 # TL;DR
 
