@@ -28,6 +28,12 @@
 {
 #if !(TARGET_IPHONE_SIMULATOR)
 
+    if (@available(iOS 14.0, *)) {
+        if ([NSProcessInfo processInfo].isiOSAppOnMac)
+        {
+            return NO;
+        }
+    }
     FILE *file = fopen("/Applications/Cydia.app", "r");
     if (file) {
         fclose(file);
